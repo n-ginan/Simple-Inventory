@@ -3,25 +3,25 @@ body {
 }
 
 .center-container {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: 500px;
-    width: 500px;
+    justify-content: center;
     margin: 0 auto;
     position: relative;
     top: 110px;
+    width: 500px;
 }
 
 .add-container {
-    background-color: #DDEFFF;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    background-color: #DDEFFF;
     border: 2px solid #C9E6FF;
     border-radius: 100px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
 }
 
 .add-svg {
@@ -37,6 +37,14 @@ body {
 .add-svg:hover {
     animation: spin 3s infinite;
     cursor: pointer;
+}
+
+.form-container {
+    background-color: #DDEFFF;
+    border: 3px solid #C9E6FF;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
 }
 
 @keyframes spin {
