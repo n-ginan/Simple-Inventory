@@ -43,8 +43,74 @@ body {
     background-color: #DDEFFF;
     border: 3px solid #C9E6FF;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     height: 300px;
-    width: 600px;
+    padding: 10px;
+    width: 750px;
+}
+
+.img-container {
+    background-color: aqua;
+    height: 300px;
+    max-width: 100%;
+    width: 60%;
+}
+
+.item-image {
+    height: 230px;
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.input-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start safe;
+    height: 280px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="text"] {
+    background-color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.item-name, .item-category {
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 450px;
+}
+
+.stocks, .price {
+    height: 30px;
+    margin-top: 5px;
+    width: 209px;
+}
+
+.stocks {
+    margin-right: 20px;
+}
+
+.add-product-btn {
+    background-color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-size: 14px;
+    height: 30px;
+    margin-top: 50px;
+    width: 458px;
 }
 
 @keyframes spin {

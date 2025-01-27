@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Inventory</title>
     <link rel="stylesheet" href="/static/css/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 <body>
     <div class="center-container">
@@ -15,6 +16,18 @@
         </div>
     </div>
     <div class="form-container">
+        <div class="img-container">
+            <img class="item-image" src="/static/img/placeholder-image.jpeg">
+        </div>
+        <div class="input-container">
+            <form id="itemForm">
+                <input type="text" class="item-name" name="item_name" placeholder="Item Name">
+                <input type="text" class="item-category" name="item_category" placeholder="Item Category">
+                <input type="text" class="stocks" name="stocks" placeholder="In Stock">
+                <input type="text" class="price" name="price" placeholder="Price">
+            </form>
+            <button class="add-product-btn">Add Product</button>
+        </div>
     </div>
 </body>
 </html>
