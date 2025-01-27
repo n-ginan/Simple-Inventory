@@ -1,3 +1,7 @@
+body {
+    background-color: #F0F8FF;
+}
+
 .center-container {
     display: flex;
     justify-content: center;
@@ -10,12 +14,13 @@
 }
 
 .add-container {
-    background-color: aquamarine;
+    background-color: #DDEFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
     width: 200px;
+    border: 2px solid #C9E6FF;
     border-radius: 100px;
 }
 
@@ -25,5 +30,17 @@
 }
 
 .plus-svg {
-    height: 150px;
+    height: 150;
+    width: 150px;
+}
+
+.add-svg:hover {
+    animation: spin 3s infinite;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg); }
+    50% {transform: rotate(180deg); }
+    100% {transform: rotate(360deg); }
 }
